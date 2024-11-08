@@ -1,0 +1,203 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --rounded: 0.5rem;
+}
+
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+
+
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+/* set up the body */
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  
+  display: grid;
+
+}
+
+/* make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {  
+*,
+*::before,
+*::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+}
+
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */
+
+/* general */
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+.d-block {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.flow > *:where(:not(:first-child)) {
+  margin-top: var(--flow-space, 1rem);
+}
+
+.flow--space-small {
+  --flow-space: .75rem;
+}
+
+.container {
+  padding-inline: 2em;
+  margin-inline: auto;
+  max-width: 80rem;
+}
+
+.sr-only {
+position: absolute; 
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px; 
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap; /* added line */
+border: 0;
+}
+
+
+.p-0 {
+  padding: 0rem;  /* 0px */
+}
+
+.p-1 {
+  padding: 0.25rem;  /* 4px */
+}
+
+.p-2 {
+  padding: 0.5rem;   /* 8px */
+}
+
+.p-3 {
+  padding: 0.75rem;  /* 12px */
+}
+
+.p-4 {
+  padding: 1rem;     /* 16px */
+}
+
+.p-5 {
+  padding: 1.25rem;  /* 20px */
+}
+
+.p-6 {
+  padding: 1.5rem;   /* 24px */
+}
+
+.p-8 {
+  padding: 2rem;     /* 32px */
+}
+
+.m-0 {
+  margin: 0rem;  /* 0px */
+}
+
+.m-1 {
+  margin: 0.25rem;  /* 4px */
+}
+
+.m-2 {
+  margin: 0.5rem;   /* 8px */
+}
+
+.m-3 {
+  margin: 0.75rem;  /* 12px */
+}
+
+.m-4 {
+  margin: 1rem;     /* 16px */
+}
+
+.m-5 {
+  margin: 1.25rem;  /* 20px */
+}
+
+.m-6 {
+  margin: 1.5rem;   /* 24px */
+}
+
+.m-8 {
+  margin: 2rem;     /* 32px */
+}

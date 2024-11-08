@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "E-commerce product page",
+      "description": "A product page for e-commerce, ",
+      "framework": "React",
+      "link": "https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6",
+      "tags": ["HTML", "CSS", "React", "PocketBase"],
+      "image": "/images/eshop.webp",
+      "dateCompleted": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "title": "Calculator app",
+      "description": "Simpel calculator. ",
+      "framework": "",
+      "link": "https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29",
+      "tags": ["HTML", "CSS", "JS"],
+      "image": "/images/calculator.webp",
+      "dateCompleted": "2024-02-10"
+    }
+  ]
+  
