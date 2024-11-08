@@ -5,7 +5,7 @@
       "description": "A product page for e-commerce, ",
       "framework": "React",
       "link": "https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6",
-      "tags": ["HTML", "CSS", "React", "PocketBase"],
+      "tags": ["HTML", "CSS", "React", "PocketBase", "TS"],
       "image": "/images/eshop.webp",
       "dateCompleted": "2024-01-15"
     },

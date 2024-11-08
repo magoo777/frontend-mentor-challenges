@@ -4,3 +4,6 @@
   border-radius: var(--rounded);
 }
 
+.card span {
+  font-weight: bold;
+}
